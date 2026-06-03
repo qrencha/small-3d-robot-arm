@@ -25,7 +25,7 @@ async function setup() {
     frameRate(30)
     rectMode(CENTER)
 
-    img = await loadImage('shiny-silver.jpg'); // credit: stock adobe
+    img = await loadImage('./shiny-silver.jpg'); // credit: stock adobe
 
 
     for (s = 0; s < numSliders; s++) {
